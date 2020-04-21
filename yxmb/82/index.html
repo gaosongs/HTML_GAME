@@ -1,0 +1,106 @@
+<!doctype html>
+<!--
+ @author: danny qiu
+ @tel: 13771753627
+ @email: danny.qiu@163.com
+-->
+<html>
+	<head>
+		<title>̹坦克大战</title>
+		<link href="images/tank.ico" rel="shortcut icon">
+		<link rel="stylesheet" type="text/css" href="css/tank.css">
+		<script src="js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.game.js"></script>
+		<script type="text/javascript" src="js/tank.home.js"></script>
+		<script type="text/javascript" src="js/tank.start.js"></script>
+	</head>
+	<body style="overflow:hidden">
+		<!-- home menu -->
+		<div id="home">
+			<div id="star" class="1"></div>
+			<div id="star2" class="2"></div>
+			<div id="help"></div>
+			<div id="exit"></div>
+			<div id="option"></div>
+		</div>
+		<!-- help content -->
+		<div id="helpCont" style="display: none;">
+			<div class="back"></div>
+		</div>
+		<!-- game parameters -->
+		<div id="optionWin" style="display: none;">
+			<div id="sound">
+				<div class="mButton" id="mButton"></div>
+				<div class="meButton"></div>
+			</div>
+			<div id="scene">
+				<div class="lawn"></div>
+				<div class="snowfield"></div>
+				<div class="sandlot"></div>
+				<div class="random"></div>
+			</div>
+			<div class="confirm"></div>
+			<div class="cancel"></div>
+		</div>
+		<!-- level window -->
+		<div id="levelWin" style="display: none;">
+			<div class="level_1" style="display: none;"><div class="iss"><span class="levelnum">关卡1</span></div></div>
+			<div class="level_2" style="display: none;"><div class="iss"><span class="levelnum">关卡2</span></div></div>
+			<div class="level_3" style="display: none;"><div class="iss"><span class="levelnum">关卡3</span></div></div>
+		</div>
+		<!-- here starts tank game! -->
+		<div id="startGame" style="display: none;">
+			<div id="container"></div>
+			<!-- nums and exit button -->
+			<div id="related" style="display: none;">
+				<div id="nums">
+					<div class="rt"></div>
+					<div class="gt"></div>
+					<div class="yt"></div>
+					<div class="bt"></div>
+				</div>
+				<div id="score">
+					<div id="lifenum1"></div>
+					<div id="score1"></div>
+					<div id="lifenum2"></div>
+					<div id="score2"></div>
+				</div>
+				<div id="round"></div>
+				<div id="level">
+					<div id="ln">
+					</div>
+				</div>
+				<!-- info menu on click or 'esc' -->
+				<div id="gameMenu">
+					<div id="goHome"></div>
+					<div id="info" style="display: none;">
+						<div id="goMenu"><div class="select"></div></div>
+						<div id="continue"><div class="select"></div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- game over~ -->
+		<div id="gameover" style="display: none;">
+			<div id="wOrl"></div>
+			<div id="p1Score">
+				<div id="tp1r"></div>
+				<div id="tp1g"></div>
+				<div id="tp1y"></div>
+				<div id="tp1b"></div>
+			</div>
+			<div id="p2Score">
+				<div id="tp2r"></div>
+				<div id="tp2g"></div>
+				<div id="tp2y"></div>
+				<div id="tp2b"></div>
+			</div>
+			<div id="p1Ttl"></div>
+			<div id="p2Ttl"></div>
+			<div id="anyKey"></div>
+		</div>
+		<div style="text-align:center;">
+
+</div>
+	</body>
+</html>

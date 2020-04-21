@@ -1,0 +1,321 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: black;
+}
+#home, #container, #helpCont, #levelWin, #gameover {
+	margin: 8px 0 0 8px;
+	width: 800px; 
+	height: 600px;
+	overflow: hidden;
+}
+#home {
+	background: url(../images/modewin/about.png) no-repeat;
+}
+#helpCont {
+	background: url(../images/modewin/help0.png) no-repeat;
+}
+#levelWin {
+	background: url(../images/levelWin/bgrnd.png) no-repeat;
+}
+#gameover {
+	background: url(../images/gameover.png) no-repeat;
+}
+#star, #star2, #help, #exit, #option, #optionWin, .back, .mButton, .meButton, .lawn, .snowfield, .sandlot, .random, .confirm, .cancel, .level_1, .level_2, .level_3, .rt, .gt, .yt, .bt, #goHome, #info, #level, #right, .roadblock, .born, #lifenum1, #lifenum2, #score1, #score2, #round, #wOrl, #tp1r, #tp1g, #tp1y, #tp1b, #tp2r, #tp2g, #tp2y, #tp2b, #p1Ttl, #p2Ttl, #anyKey {
+	position: absolute;
+}
+#star {
+	background: url(../images/modewin/star.png) 0% 50% no-repeat;
+	height: 43px;
+	width: 101px;
+	top: 425px;
+	left: 670px;
+}
+#star2 {
+	background: url(../images/modewin/star2.png) 0% 50% no-repeat;
+	height: 43px;
+	width: 109px;
+	top: 457px;
+	left: 553px;
+}
+#help {
+	background: url(../images/modewin/help.png) 0% 50% no-repeat;
+	height: 43px;
+	width: 149px;
+	top: 501px;
+	left: 521px;
+}
+#exit {
+	background: url(../images/modewin/exit.png) 0% 50% no-repeat;
+	height: 43px;
+	width: 149px;
+	top: 540px;
+	left: 640px;
+}
+#option {
+	background: url(../images/modewin/option.png) 0% 50% no-repeat;
+	height: 43px;
+	width: 149px;
+	top: 548px;
+	left: 458px;
+}
+.back {
+	background: url(../images/modewin/help-back.png) 0% 50% no-repeat;
+	height: 43px;
+	width: 128px;
+	top: 549px;
+	left: 639px;
+}
+#optionWin {
+	background: url(../images/optionwin/bgrnd.png) no-repeat;
+	height: 0;
+	width: 0;
+	top: 588px;
+	left: 800px;
+	z-index: 100px;
+}
+.mButton, .meButton {
+	background: url(../images/optionwin/key.png) no-repeat;
+	height: 23px;
+	left: 84px;
+}
+.mButton {
+	width: 205px;
+	top: 82px;
+}
+.meButton {
+	width: 10px;
+	top: 121px;
+}
+.lawn, .snowfield, .sandlot, .random {
+	height: 23px;
+	width: 24px;
+}
+.lawn {
+	top: 254px;
+	left: 124px;
+}
+.snowfield {
+	top: 254px;
+	left: 267px;
+}
+.sandlot {
+	top: 315px;
+	left: 124px
+}
+.random {
+	top: 315px;
+	left: 268px
+}
+.checked {
+	background: url(../images/optionwin/checkbox2.png) no-repeat;
+}
+.confirm {
+	background: url(../images/optionwin/confirm.png) 0% 50% no-repeat;
+	height: 43px;
+	width: 156px;
+	top: 358px;
+	left: 2px;
+}
+.cancel {
+	background: url(../images/optionwin/exit.png) 0% 50% no-repeat;
+	height: 43px;
+	width: 157px;
+	top: 358px;
+	left: 160px;
+}
+.level_1, .level_2, .level_3 {
+	background: url(../images/levelWin/btn.png) 0% 50% no-repeat;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 700;
+	color: white;
+	height: 38px;
+	width: 129px;
+}
+.level_1 {
+	top: 195px;
+	left: 70px;
+}
+.level_2 {
+	top: 195px;
+	left: 204px;
+}
+.level_3 {
+	top: 196px;
+	left: 339px;
+}
+.iss {
+	height: 39px;
+}
+#levelWin .selected {
+	background: url(../images/levelWin/choose.png);
+	color: red;
+	height: 40px;
+	width: 130px;
+}
+.levelnum {
+	position: relative;
+	top: 10px;
+}
+#level {
+	background: url(../images/level.png) no-repeat;
+	height: 160px;
+	width: 320px;
+	top: 200px;
+	left: 190px;
+	z-index: 10;
+}
+#ln {
+	position: relative;
+	height: 66px;
+	width: 50px;
+	top: 80px;
+	left: 135px;
+	z-index: 11;
+	
+}
+#goHome {
+	background: url(../images/exit.png) 0% 50% no-repeat;
+	height: 98px;
+	width: 96px;
+	top: 510px;
+	left: 701px;
+}
+#info {
+	background: url(../images/info/bgrnd.png) no-repeat;
+	height: 161px;
+	width: 194px;
+	top: 200px;
+	left: 260px;
+	z-index: 12;
+}
+#goMenu, #continue {
+	position: relative;
+	height: 30px;
+	width: 133px;
+	left: 51px;
+	z-index: 13;
+}
+#goMenu {
+	background: url(../images/info/gomenu.png) no-repeat;
+	top: 55px;
+}
+#continue {
+	background: url(../images/info/continue.png) no-repeat;
+	top: 71px;
+}
+#info .selected {
+	background: url(../images/info/Arrow.png);
+	position: relative;
+	height: 33px;
+	width: 43px;
+	top: -1px;
+	left: -42px;
+}
+.born {
+	height: 50px;
+	width: 34px;
+	z-index: 1;
+}
+.rt, .gt, .yt, .bt {
+	left: 750px;
+}
+.rt {
+	top: 109px;
+}
+.gt {
+	top: 162px;
+}
+.yt {
+	top: 215px;
+}
+.bt {
+	top: 268px;
+}
+#lifenum1 {
+	top: 565px;
+	left: 131px;
+}
+#lifenum2 {
+	top: 565px;
+	left: 364px;
+}
+#score1 {
+	top: 569px;
+	left: 180px;
+}
+#score2 {
+	top: 569px;
+	left: 413px;
+}
+#round {
+	top: 458px;
+	left: 731px;
+}
+.setBlock {
+	height: 60px;
+}
+.roadblock {
+	height: 50px;
+	width: 36px;
+	z-index: 1;
+}
+#wOrl {
+	background: url(../images/fail.png);
+	height: 30px;
+	width: 117px;
+	top: 205px;
+	left: 360px;
+}
+#tp1r {
+	top: 295px;
+	left: 274px;
+}
+#tp1g {
+	top: 337px;
+	left: 274px;
+}
+#tp1y {
+	top: 379px;
+	left: 274px;
+}
+#tp1b {
+	top: 424px;
+	left: 274px;
+}
+#tp2r {
+	top: 295px;
+	left: 484px;
+}
+#tp2g {
+	top: 337px;
+	left: 484px;
+}
+#tp2y {
+	top: 379px;
+	left: 484px;
+}
+#tp2b {
+	top: 424px;
+	left: 484px;
+}
+#p1Ttl {
+	top: 486px;
+	left: 289px;
+}
+#p2Ttl {
+	top: 486px;
+	left: 506px;
+}
+#anyKey {
+	height: 22px;
+	width: 132px;
+	top: 562px;
+	left: 360px;
+}
+.presscontinue {
+	background: url(../images/presscontinue.png) no-repeat;
+}

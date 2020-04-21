@@ -1,0 +1,80 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	padding: 10px;
+}
+.game{
+	position: relative;
+	
+	width: 200px;
+	height: 400px;
+	background-color: #f2faff;
+	border-width: 0 1px 1px ;
+	border-style: solid;
+	border-color: green;
+	display: inline-block;
+}
+.gameOver{
+	width: 200px;
+	height: 400px;
+	background:rgba(0,0,0,.5);
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	text-align: center;
+	display: none;
+}
+.gameOver>p{
+	color: #fff;
+	margin-top: 180px;
+}
+.next{
+	width: 80px;
+	height: 80px;
+	position: relative;
+	border: 1px solid green;
+	vertical-align: top;
+	background-color: #f2faff;
+	display: inline-block;
+}
+.info{
+	/*border:1px solid red;*/
+	padding-left: 50px;
+	display: inline-block;
+	/*width: 80px;*/
+	vertical-align: top;
+}
+.time{
+	margin-top: 20px;	
+}
+/*定义div样式*/
+.none,.current,.done{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	box-sizing: border-box;
+}
+.none{
+	background: #f2faff;
+}
+.current{
+	background-color: pink;
+	border:1px solid red;
+}
+.done{
+	background-color: gray;
+	border:1px solid #000;
+}
+.tips{
+	border: 1px solid green;
+	background: yellowgreen;
+	/*color: #fff;*/
+	
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 45px;
+	padding: 10px;
+	border-radius: 6px;
+}
